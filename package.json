@@ -45,11 +45,17 @@
     "ember-welcome-page": "^4.0.0",
     "eslint-plugin-ember": "^6.2.0",
     "eslint-plugin-node": "^9.0.1",
+    "glob": "^4.5.3",
     "graphql": "^14.5.8",
+    "http-proxy": "^1.18.0",
     "loader.js": "^4.7.0",
+    "morgan": "^1.9.1",
     "qunit-dom": "^0.8.4"
   },
   "engines": {
     "node": "8.* || >= 10.*"
+  },
+  "dependencies": {
+    "curl-request": "^1.1.1"
   }
 }
