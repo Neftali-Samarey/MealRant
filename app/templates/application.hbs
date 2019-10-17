@@ -7,9 +7,11 @@
 <div class="setBackground">
   <div class="container">
     <div class="searchBoxContainer">
-      <span class="imageContainer"><img src="assets/images/mealrant_logo.png"></span>
+      <span class="imageContainer">
+        <img src="assets/images/mealrant_logo.png" draggable="false">
+        </span>
       {{!-- <input class="inputField" type="text"/> --}}
-      <Input class="inputField" @type="text" @value="lol" @size="5" @key-press={{action "sendAction"}}/>
+      <Input class="smallFont" placeholder="Craving?" class="inputField" @type="text" @size="5"/>
     </div>
   </div>
 </div>

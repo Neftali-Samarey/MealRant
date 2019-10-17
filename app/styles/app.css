@@ -50,6 +50,16 @@ button:focus {
   height: 100vh;
 }
 
+.searchBoxContainer {
+  position: relative;
+  /* border: 1px solid green; */
+  text-align: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.smallFont {
+  font-size: 20px;
+}
 .searchBoxContainer input{
   margin: 0;
   position: absolute;
@@ -58,3 +68,13 @@ button:focus {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+.imageContainer img{
+  height: auto;
+  width: 560px;
+  top: 100%;
+  -ms-transform: translateY(120%);
+  transform: translateY(120%);
+ 
+}
+
