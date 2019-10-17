@@ -1,9 +1,17 @@
 <!-- main document body polkadotMovie--white -->
+<script>
+  function sendAction() {
+    alert("Invoked");
+  }
+</script>
 <div class="setBackground">
-  
-  
-  <!-- main content -->
-
+  <div class="container">
+    <div class="searchBoxContainer">
+      <span class="imageContainer"><img src="assets/images/mealrant_logo.png"></span>
+      {{!-- <input class="inputField" type="text"/> --}}
+      <Input class="inputField" @type="text" @value="lol" @size="5" @key-press={{action "sendAction"}}/>
+    </div>
+  </div>
 </div>
 
   <!-- Fetchign the data rom the API -->
