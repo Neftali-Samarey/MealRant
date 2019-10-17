@@ -28,8 +28,7 @@
   width: 30%;
   border: none;
   height: 50px;
-  border-radius: 7px;
-  font-size: 28px;
+  border-radius: 4px;
   text-indent: 10px;
 }
 
@@ -61,6 +60,7 @@ button:focus {
   font-size: 20px;
 }
 .searchBoxContainer input{
+
   margin: 0;
   position: absolute;
   top: 50%;
@@ -72,9 +72,24 @@ button:focus {
 .imageContainer img{
   height: auto;
   width: 560px;
-  top: 100%;
-  -ms-transform: translateY(120%);
-  transform: translateY(120%);
+  top: 80%;
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
  
 }
+
+.nav {
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+
+.nav ul li a {
+  
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+} 
+
 
