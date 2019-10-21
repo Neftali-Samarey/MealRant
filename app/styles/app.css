@@ -92,12 +92,17 @@ button:focus {
   font-family: 'Roboto', sans-serif;
 } 
 
-
+.links {
+  color: #000;
+  text-decoration: underline;
+}
 /* Promo banner */
 .promo_banner {
   background-color: orange;
   color: #fff;
   text-align: center;
+  padding: 10px 0 10px 0;
+  font-size: 18px;
 }
 
 
