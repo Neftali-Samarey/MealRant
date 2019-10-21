@@ -93,3 +93,11 @@ button:focus {
 } 
 
 
+/* Promo banner */
+.promo_banner {
+  background-color: orange;
+  color: #fff;
+  text-align: center;
+}
+
+
