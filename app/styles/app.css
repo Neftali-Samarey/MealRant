@@ -49,13 +49,21 @@ button:focus {
   height: 100vh;
 }
 
+/*TODO: 
+
+When set to auto (height) search box is only translucent with black. Must fix
+
+*/
 .searchBoxContainer {
   position: relative;
   /* border: 1px solid green; */
   text-align: center;
   height: 100%;
+  
   background-color: rgba(0, 0, 0, 0.6);
+
 }
+
 .smallFont {
   font-size: 20px;
 }
@@ -68,6 +76,8 @@ button:focus {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+
 
 .imageContainer img{
   height: auto;
